@@ -61,19 +61,22 @@
 .Instructors{
 	width: 100%;
   	height: 300px;
-
+  	border: 2px solid #000000;
+  	margin-left: 0;
 }
+
+
 .imgleft{
   
   	background-image: url(../img/instructor_4.jpg);
   	background-size: cover;
-  	height: 300px;
+  	height: 296px;
  	
   }
 .imgright{
   	background-image: url(../img/profesor_9.jpg);
   	background-size: cover;
-  	height: 300px;
+  	height: 296px;
   	background-position: top;
 }
 
@@ -87,4 +90,19 @@
 	top: 220px;
 	left: 360px;
 	font-size: 20px;	
+}
+.poema{
+	width: 100%;
+	height: 300px;
+	background: url(../img/textura_2.jpg)repeat;
+	font-size: 40px;
+	padding: 110px 180px;
+}
+
+.Visitanos{
+	width: 100%;
+	height: 300px;
+	background: url(../img/textura_2.jpg)repeat;
+	font-size: 40px;
+	padding: 110px 180px;
 }
