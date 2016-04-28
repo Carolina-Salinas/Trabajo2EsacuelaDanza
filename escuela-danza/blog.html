@@ -12,31 +12,21 @@
 </head>
 <body>
 	<!-- Inserta tu código aqui -->
-	<header>
-	  <div class = "container">
-	    <div class = "row">
-	      <h1>ESCUELA DE DANZA</h1>
-	    </div>
-	    <div class = "row">
-	      <nav>
-	        <ul>
-	          <a href = "nosotros.html">Nosotros</a>
-	          <a href = "clases.html">Clases</a>
-	          <a href = "blog.html">Blog</a>
-	          <a href = "#contactanos">Contáctanos</a>
-	        </ul>
-	      </nav>
-	    </div>
-	  </div>
-	</header>
-	<section class = "bg-gray">
-	  <div class = "container-fluid">
-	    <div class = "row">
-	      <div class = "subtitulo pt-5 pb-5">
-	        <h1>BLOG</h1>
-	      </div>
-	    </div>
-	    <div class = "row pl-10 pr-10 pb-5">
+	<body>
+	<div class="container-fluid">
+		<div class="menu text-center text-gray">
+			<h2>ESCUELA DE DANZA</h2>
+			<ul>
+				<li><a class="text-gray a-none-decoration" href="nosotros.html">Nosotros</a></li>
+				<li><a class="text-gray a-none-decoration" href="clases.html">Clases</a></li>
+				<li><a class="text-gray a-none-decoration" href="blog.html">Blog</a></li>
+				<li><a class="text-gray a-none-decoration" href="index.html#contacto">Contáctanos</a></li>
+			</ul>
+		</div>
+	    <div class = "row articulo text-center bg-gray">
+	        <h1 class="pt-5 pb-5">BLOG</h1>
+	     </div>
+	    <div class = "row pl-10 pr-10 pb-5 bg-gray">
 	      <div class = "col-2">
 	        <div class = "imgblog"><img src = "img/blog1.jpg"></div>
 	      </div>
@@ -51,7 +41,7 @@
 	        </div>
 	      </div>
 	    </div>
-	    <div class = "row pl-10 pr-10 pb-5">
+	    <div class = "row pl-10 pr-10 pb-5 bg-gray">
 	      <div class = "col-2">
 	        <div class = "imgblog"><img src = "img/profesor_5jpg.jpg"></div>
 	      </div>
@@ -66,7 +56,7 @@
 	        </div>
 	      </div>
 	    </div>
-	    <div class = "row pl-10 pr-10 pb-5">
+	    <div class = "row pl-10 pr-10 pb-5 bg-gray">
 	      <div class = "col-2">
 	        <div class = "imgblog"><img src = "img/instructor_1.jpg"></div>
 	      </div>
@@ -80,43 +70,32 @@
 	          </div>
 	        </div>
 	      </div>
-	    </div>
-	  </div>
-	</section>
-	<section class = "form-section" id = "contactanos">
-      <div class = "container-fluid">
-        <div class = "row pt-5 pl-5">
-          <h1 class = "text-blue">Contáctanos</h1>
-          <form>
-            <div class = "nombre">
-              <i class = "fa fa-user icono-form"></i>
-              <input type = "text" class = "form-design" placeholder = "Nombre" />
-            </div>
-            <br>
-            <div class = "email">
-              <i class = "fa fa-envelope icono-form"></i>
-              <input type = "text" class = "form-design" placeholder = "Email" />
-            </div>
-            <br>
-            <div class = "mensaje">
-              <i class = "fa fa-pencil icono-form pencil"></i>
-              <textarea class = "text-design" placeholder = "Mensaje"></textarea>
-            </div>
-            <button type = "submit" class = "button-design">ENVIAR</button>
-          </form>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class = "container-fluid">
-        <div class = "row">
-          <div class = "derechosreservados">
-            <p>© Escuela de danza. Todos los derechos reservados.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-
+	     </div>
+	    <div class="Contactanos pl-5" id="contacto">
+			<div class="row formulario">
+				<div class="col-6 pl-5">
+					<h1 class="text-blue pb-1">Contáctanos</h1>
+					<form action class="index.html" method="get">
+						<div class="caja">
+							<label for="name"></label>
+								<i class="fa fa-user"></i>
+								<input type="text" id="nombre" placeholder="Nombre">
+						</div>
+	    				<div class="caja">
+							<label for="email"></label>
+								<i class="fa fa-envelope"></i>
+								<input type="text" id="email" placeholder="Email">
+						</div>
+	    				<div class="caja">
+							<label for="mensaje"></label>
+								<i class="fa fa-pencil"></i>
+								<textarea id="mensaje" placeholder="Mensaje"></textarea>
+						</div>
+					</form>
+							<button class="enviar text-center text-humo">ENVIAR</button>
+				</div>
+			</div>
+		</div>
+	 </div>
 </body>
 </html>

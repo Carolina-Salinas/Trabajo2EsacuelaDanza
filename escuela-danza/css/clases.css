@@ -1,1 +1,63 @@
-/* Inserta tu codigo aqui */
+body{
+	font-family: "Latolight";
+	}
+  .menu h2{
+  	padding-top:30px;
+  }
+  .menu li{
+  	display: inline-block;
+  	padding:35px;
+  }
+.clasesteach{
+
+}
+
+
+.contactanos{
+	width: 100%;
+	height: 580px;
+	background-image: url(../img/shoes_1.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#nombre, #email{
+	width: 100%;
+    outline: none;
+    padding: 10px;
+    background: none;
+    border: none;
+    border: 2px solid rgb(83, 88, 95);
+}
+#mensaje{
+	font-size: 16px;
+    width: 100%;
+    height: 100px;
+    outline: none;
+    background: none;
+    border: none;
+    border: 2px solid rgb(83, 88, 95); 
+}
+.enviar{
+	width: 100%;
+	height: 65px;
+	padding: 12px;
+	background-color: #192951;
+	border-radius: 5px;
+	margin: 0 auto;
+	font-size: 15px;
+	border-radius: 5px;
+}
+.caja{
+	padding-bottom: 10px;
+}
+
+.formulario{
+	background-image: url(../img/shoes_1.jpg); 
+	background-repeat: no-repeat; 
+	background-position: right; 
+	background-size: auto;
+	height: 450px;
+}
+.formulario h1{
+	padding: 30px;
+}
